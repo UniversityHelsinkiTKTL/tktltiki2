@@ -152,7 +152,7 @@
 
     \vspace{2\baselineskip}
 
-    \@city\ \@date
+    \@city,\ \@date
     \restoregeometry
 }
 \end{titlepage}%
