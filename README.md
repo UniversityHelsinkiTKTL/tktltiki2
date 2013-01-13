@@ -13,5 +13,40 @@ Simply download tktltiki2.cls and put it in your project folder to get started. 
 Documentation
 -------------
 
-For now, refer to template.tex to see how the class is used and what options are available. A more detailed documentation, along with full worked examples, will be published hopefully during January 2013.
+For now, refer to template-en.tex (English) or template-fi.tex (Finnish) to see how the class is used and what options are available. A more detailed documentation, along with full worked examples, will be published hopefully during January 2013.
+
+
+Compiling with latexmk
+----------------------
+
+Re-compile everything as needed:
+
+    latexmk template-en.tex
+
+Clean up everything:
+
+    latexmk -C template-en.tex
+
+
+Compiling with rubber
+---------------------
+
+Re-compile everything as needed:
+
+    rubber -Wall template-en.tex
+
+Clean up everything:
+
+    rubber --clean template-en.tex
+
+
+Compiling manually
+------------------
+
+Compile everything:
+
+    pdflatex template-en
+    bibtex template-en
+    pdflatex template-en
+    pdflatex template-en
 

@@ -152,7 +152,7 @@
 
     \vspace{2\baselineskip}
 
-    \@city\ \@date
+    \@city,\ \@date
     \restoregeometry
 }
 \end{titlepage}%
@@ -188,6 +188,7 @@
 \newcommand{\makeabstract}{%
 \thispagestyle{empty}
 \newgeometry{textwidth=580pt, textheight=845pt}
+\noindent
 \begin{picture}(580,845)
 \put(58,  784){\makebox(100, 8)[l]{\abst@small\@faculty}}
 \put(289, 784){\makebox(100, 8)[l]{\abst@small\@department}}
