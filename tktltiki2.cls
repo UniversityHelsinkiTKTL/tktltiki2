@@ -1,7 +1,7 @@
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
 \ProvidesClass{tktltiki2}[2013/01/09 v1.0 Template for theses and seminar papers at University of Helsinki CS department]
 \RequirePackage{calc}
-\RequirePackage[pass]{geometry}
+\RequirePackage[pass]{geometry}[2010/09/12 v5.6 Page Geometry]
 \RequirePackage{babel}
 
 \newif\if@grading

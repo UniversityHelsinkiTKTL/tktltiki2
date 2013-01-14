@@ -50,3 +50,8 @@ Compile everything:
     pdflatex template-en
     pdflatex template-en
 
+
+Known issues
+------------
+
+The current version of the class requires the latest version of the geometry package to be installed. This may cause issues if your LaTeX installation is not up to date.
