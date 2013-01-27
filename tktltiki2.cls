@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{tktltiki2}[2013/01/09 v1.0 Template for theses and seminar papers at University of Helsinki CS department]
+\ProvidesClass{tktltiki2}[2013/01/09 v1.01 Template for theses and seminar papers at University of Helsinki CS department]
 \RequirePackage{calc}
 \RequirePackage[pass]{geometry}[2010/09/12 v5.6 Page Geometry]
 \RequirePackage{babel}
@@ -83,8 +83,8 @@
     \renewcommand{\@instructor}{arvostelija}%
     \university{Helsingin Yliopisto}
     \faculty{Matemaattis-luonnontieteellinen}
-    \department{Tietojenkäsittelytieteen laitos}
-    \subject{Tietojenkäsittelytiede}
+    \department{Tietojenk\"asittelytieteen laitos}
+    \subject{Tietojenk\"asittelytiede}
 }{}
 \iflanguage{swedish}{
     \renewcommand{\@dateofacceptance}{godk.datum}%
@@ -92,7 +92,7 @@
     \renewcommand{\@instructor}{bed\"omare}%
     \university{Helsingfors universitet}
     \faculty{Matematisk-naturvetenskapliga fakulteten}
-    \department{Institutionen för datavetenskap}%
+    \department{Institutionen f\"or datavetenskap}%
     \subject{Datavetenskap}
     \city{Helsingfors}
 }{}
@@ -177,7 +177,7 @@
     }
 }
 
-% -- "Tiivistelmäsivu" --
+% -- "Tiivistelmasivu" --
 % the following code is mostly inherited from the Old Ones
 % approach with caution
 
