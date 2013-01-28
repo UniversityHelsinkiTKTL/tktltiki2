@@ -37,7 +37,7 @@
 
 % -- Setup for string commands --
 
-\newcommand{\@university}{University of Helsinki}
+\newcommand{\@university}{UNIVERSITY OF HELSINKI}
 \newcommand{\@faculty}{Faculty of Science}
 \newcommand{\@department}{Department of Computer Science}
 \newcommand{\@subject}{Computer Science}
@@ -81,7 +81,7 @@
     \renewcommand{\@dateofacceptance}{hyv\"aksymisp\"aiv\"a}%
     \renewcommand{\@grade}{arvosana}%
     \renewcommand{\@instructor}{arvostelija}%
-    \university{Helsingin Yliopisto}
+    \university{HELSINGIN YLIOPISTO}
     \faculty{Matemaattis-luonnontieteellinen}
     \department{Tietojenk\"asittelytieteen laitos}
     \subject{Tietojenk\"asittelytiede}
@@ -90,7 +90,7 @@
     \renewcommand{\@dateofacceptance}{godk.datum}%
     \renewcommand{\@grade}{vitsord}%
     \renewcommand{\@instructor}{bed\"omare}%
-    \university{Helsingfors universitet}
+    \university{HELSINGFORS UNIVERSITET}
     \faculty{Matematisk-naturvetenskapliga fakulteten}
     \department{Institutionen f\"or datavetenskap}%
     \subject{Datavetenskap}
