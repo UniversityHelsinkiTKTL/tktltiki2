@@ -1,4 +1,4 @@
-tktl2tiki2 LaTeX class
+tktltiki2 LaTeX class
 ======================
 
 This is a thesis and course report LaTeX class following the conventions at the Computer Science Department of the University of Helsinki. The class is intended to be used for the bachelor's thesis, master's thesis and various course and seminar reports.
