@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{tktltiki2}[2013/01/09 v1.01 Template for theses and seminar papers at University of Helsinki CS department]
+\ProvidesClass{tktltiki2}[2013/02/15 v1.02 Template for theses and seminar papers at University of Helsinki CS department]
 \RequirePackage{calc}
 \RequirePackage[pass]{geometry}[2010/09/12 v5.6 Page Geometry]
 \RequirePackage{babel}
