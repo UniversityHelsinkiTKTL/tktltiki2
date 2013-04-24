@@ -15,6 +15,11 @@ Documentation
 
 For now, refer to template-en.tex (English) or template-fi.tex (Finnish) to see how the class is used and what options are available. A more detailed documentation, along with full worked examples, will be published hopefully during January 2013.
 
+Requirements
+------------
+
+In order to use the templates with a [TeX Live](http://http://www.tug.org/texlive/) based environment, make sure that you have `texlive-latex-extra` package installed. This package is available at least on Ubuntu, Debian and MacPorts.
+
 
 Compiling with latexmk
 ----------------------
