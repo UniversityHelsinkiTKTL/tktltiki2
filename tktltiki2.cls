@@ -3,6 +3,7 @@
 \RequirePackage{calc}
 \RequirePackage[pass]{geometry}[2010/09/12 v5.6 Page Geometry]
 \RequirePackage{babel}
+\RequirePackage{etoolbox}
 
 \newif\if@grading
 \newif\if@lastpagecounter
@@ -74,6 +75,16 @@
 \newcommand{\keywords}[1]{\renewcommand{\@keywords}{#1}}
 \renewcommand{\abstract}[1]{\renewcommand{\@abstract}{#1}}
 
+% command to support CCS 2012 LaTeX snippets from http://dl.acm.org/ccs_flat.cfm
+% low/100: normal text, medium/300: \textit, high/500: \textbf
+% example:
+% \classification{
+%    \ccsdesc[500]{Computer systems organization~n-tier architectures}
+%    \ccsdesc[300]{Information systems~Distributed storage}
+% }
+\newcommand{\ccsdesc}[2][300]{
+    \\ \ifnumless{#1}{300}{#2}{\ifnumless{#1}{500}{\textit{#2}}{\textbf{#2}}}
+}
 
 % -- Language-dependent strings --
 
