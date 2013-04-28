@@ -1,11 +1,12 @@
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{tktltiki2}[2013/02/15 v1.02 Template for theses and seminar papers at University of Helsinki CS department]
+\ProvidesClass{tktltiki2}[2013/04/28 v1.03 Template for theses and seminar papers at University of Helsinki CS department]
 \RequirePackage{calc}
 \RequirePackage[pass]{geometry}[2010/09/12 v5.6 Page Geometry]
 \RequirePackage{babel}
 
 \newif\if@grading
 \newif\if@lastpagecounter
+\newif\if@useclassification
 \@lastpagecountertrue
 
 % -- Language options --
@@ -70,7 +71,10 @@
 \newcommand{\depositeplace}[1]{\renewcommand{\@depositeplace}{#1}}
 \newcommand{\additionalinformation}[1]{\renewcommand{\@additionalinformation}{#1}}
 \newcommand{\numberofpagesinformation}[1]{\renewcommand{\@numberofpagesinformation}{#1}}
-\newcommand{\classification}[1]{\renewcommand{\@classification}{#1}}
+\newcommand{\classification}[1]{
+    \renewcommand{\@classification}{#1}
+    \@useclassificationtrue
+}
 \newcommand{\keywords}[1]{\renewcommand{\@keywords}{#1}}
 \renewcommand{\abstract}[1]{\renewcommand{\@abstract}{#1}}
 
@@ -205,9 +209,9 @@
     \parbox[t]{402pt}{
         \abst@small\setlength{\parindent}{2em}\noindent\@abstract
         
-        \if \@classification
-        \else
-          \vspace{3\baselineskip} \noindent \@ccs \\\@classification
+        \if@useclassification
+          \vspace{2\baselineskip}
+          \noindent \@ccs \\\@classification
         \fi
     }
 }
