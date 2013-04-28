@@ -111,23 +111,25 @@
 
 % --- Front matter ---
 
+\frontmatter      % roman page numbering for front matter
+
 \maketitle        % title page
 \makeabstract     % abstract page
 
 \tableofcontents  % table of contents
-\newpage          % clear page after the table of contents
-
 
 % --- Main matter ---
 
-\section{...}
+\mainmatter       % clear page, start arabic page numbering
+
+\section{Esimerkkiluku}
 
 % Write some science here.
 
 Esimerkkilause ja lähdeviite~\cite{esimerkki}.
 
 
-% --- Back matter ---
+% --- References ---
 %
 % bibtex is used to generate the bibliography. The babplain style
 % will generate numeric references (e.g. [1]) appropriate for theoretical
@@ -140,5 +142,14 @@ Esimerkkilause ja lähdeviite~\cite{esimerkki}.
 \bibliographystyle{babplain-lf}
 \bibliography{references-fi}
 
+
+% --- Appendices ---
+
+% uncomment the following
+
+% \newpage
+% \appendix
+% 
+% \section{Esimerkkiliite}
 
 \end{document}

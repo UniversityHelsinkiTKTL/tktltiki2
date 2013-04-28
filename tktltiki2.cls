@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{tktltiki2}[2013/04/28 v1.03 Template for theses and seminar papers at University of Helsinki CS department]
+\ProvidesClass{tktltiki2}[2013/04/28 v1.04 Template for theses and seminar papers at University of Helsinki CS department]
 \RequirePackage{calc}
 \RequirePackage[pass]{geometry}[2010/09/12 v5.6 Page Geometry]
 \RequirePackage{babel}
@@ -117,6 +117,16 @@
     \lastpage
 }
 \fi
+
+
+% -- Front matter and main matter --
+
+\newcommand\frontmatter{%
+    \pagenumbering{roman}}
+  
+\newcommand\mainmatter{%
+    \clearpage
+    \pagenumbering{arabic}}
 
 
 % -- Title page --
