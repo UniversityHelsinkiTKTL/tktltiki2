@@ -152,7 +152,7 @@
     \vspace*{\fill}
 
 
-    {\Large\bf \@title}
+    {\Large\bfseries \@title}
 
     \vspace{2\baselineskip}
 
